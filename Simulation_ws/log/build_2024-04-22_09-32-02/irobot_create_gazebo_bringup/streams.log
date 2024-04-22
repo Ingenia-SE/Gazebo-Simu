@@ -1,0 +1,136 @@
+[0.026s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.412s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.625s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.831s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.839s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.851s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.995s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.118s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.155s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Looking for pthread.h
+[1.317s] -- Looking for pthread.h - found
+[1.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.414s] -- Found Threads: TRUE  
+[1.624s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.625s] -- Checking for module 'bullet>=2.82'
+[1.641s] --   Found bullet, version 3.05
+[1.781s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.843s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.879s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.918s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.942s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.950s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.959s] -- Searching for dependencies of ignition-math6
+[1.962s] -- Looking for OGRE...
+[1.962s] -- OGRE_PREFIX_WATCH changed.
+[1.969s] -- Checking for module 'OGRE'
+[1.984s] --   Found OGRE, version 1.9.0
+[2.025s] -- Found Ogre Ghadamon (1.9.0)
+[2.035s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.046s] -- Looking for OGRE_Paging...
+[2.053s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.054s] -- Looking for OGRE_Terrain...
+[2.060s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.060s] -- Looking for OGRE_Property...
+[2.067s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.067s] -- Looking for OGRE_RTShaderSystem...
+[2.073s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.073s] -- Looking for OGRE_Volume...
+[2.080s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.080s] -- Looking for OGRE_Overlay...
+[2.086s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.234s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.237s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.238s] -- Searching for dependencies of ignition-transport8
+[2.259s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.274s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.279s] -- Checking for module 'libzmq >= 4'
+[2.296s] --   Found libzmq , version 4.3.4
+[2.340s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.347s] -- Checking for module 'uuid'
+[2.363s] --   Found uuid, version 2.37.2
+[2.403s] -- Found UUID: TRUE  
+[2.407s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.408s] -- Searching for dependencies of ignition-msgs5
+[2.435s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.441s] -- Checking for module 'tinyxml2'
+[2.457s] --   Found tinyxml2, version 9.0.0
+[2.499s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.503s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.504s] -- Searching for dependencies of ignition-common3
+[2.504s] -- Looking for dlfcn.h - found
+[2.505s] -- Looking for libdl - found
+[2.507s] -- Found DL: TRUE  
+[2.523s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.523s] -- Searching for <ignition-common3> component [graphics]
+[2.527s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.528s] -- Searching for dependencies of ignition-common3-graphics
+[2.528s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.533s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.533s] -- Searching for dependencies of ignition-fuel_tools4
+[2.634s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.647s] -- Checking for module 'jsoncpp'
+[2.663s] --   Found jsoncpp, version 1.9.5
+[2.704s] -- Found JSONCPP: TRUE  
+[2.711s] -- Checking for module 'libzip'
+[2.728s] --   Found libzip, version 1.7.3
+[2.769s] -- Found ZIP: TRUE  
+[2.770s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.770s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.771s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.777s] -- Gazebo version: 11.10
+[2.778s] -- Checking for module 'tbb'
+[2.795s] --   Found tbb, version 2021.5.0
+[2.849s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.957s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.958s] -- Added test 'lint_cmake' to check CMake code style
+[2.958s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.960s] -- Added test 'xmllint' to check XML markup files
+[2.962s] -- Configuring done
+[2.969s] -- Generating done
+[2.971s] -- Build files have been written to: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup
+[2.986s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup
+[2.989s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup -- -j8 -l8
+[3.043s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup -- -j8 -l8
+[3.074s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup
+[3.083s] -- Install configuration: ""
+[3.084s] -- Execute custom install script
+[3.084s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/config/gazebo_params.yaml
+[3.096s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo.launch.py
+[3.108s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo_aws_small.launch.py
+[3.119s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_spawn.launch.py
+[3.131s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/gazebo.launch.py
+[3.143s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_bringup
+[3.155s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_bringup
+[3.168s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.sh
+[3.181s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.dsv
+[3.193s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.sh
+[3.204s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.dsv
+[3.216s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.bash
+[3.228s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.sh
+[3.240s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.zsh
+[3.252s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.dsv
+[3.265s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.dsv
+[3.276s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/packages/irobot_create_gazebo_bringup
+[3.288s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig.cmake
+[3.299s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig-version.cmake
+[3.311s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.xml
+[3.325s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_bringup

@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins -- -j8 -l8
+[0.101s] [ 16%] [34m[1mAutomatic MOC for target Create3Hmi[0m
+[0.139s] [ 16%] Built target Create3Hmi_autogen
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target Create3Hmi[0m
+[0.167s] [ 33%] [32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi.cc.o[0m
+[0.167s] [ 50%] [32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi_autogen/mocs_compilation.cpp.o[0m
+[27.090s] [ 66%] [32m[1mLinking CXX shared library libCreate3Hmi.so[0m
+[28.979s] [100%] Built target Create3Hmi
+[29.051s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins -- -j8 -l8
+[29.537s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins
+[29.592s] -- Install configuration: ""
+[29.594s] -- Execute custom install script
+[29.601s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/lib/libCreate3Hmi.so
+[29.664s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_plugins
+[29.726s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_plugins
+[29.773s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.sh
+[29.808s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.dsv
+[29.872s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.sh
+[29.935s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.dsv
+[30.001s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.bash
+[30.085s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.sh
+[30.157s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.zsh
+[30.216s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.dsv
+[30.264s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv
+[30.310s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/packages/irobot_create_ignition_plugins
+[30.388s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig.cmake
+[30.439s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig-version.cmake
+[30.492s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.xml
+[30.526s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins

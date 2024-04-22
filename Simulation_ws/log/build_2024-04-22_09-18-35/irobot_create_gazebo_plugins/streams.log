@@ -1,0 +1,12 @@
+[0.091s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_plugins -- -j8 -l8
+[0.341s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_helpers.dir/src/gazebo_ros_helpers.cpp.o[0m
+[22.865s] [ 10%] [32m[1mLinking CXX shared library libgazebo_ros_create_helpers.so[0m
+[24.189s] [ 10%] Built target gazebo_ros_create_helpers
+[24.326s] [ 15%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o[0m
+[24.340s] [ 20%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o[0m
+[24.345s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[24.355s] [ 35%] [32mBuilding CXX object CMakeFiles/docking_manager.dir/src/docking_manager.cpp.o[0m
+[24.355s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[24.409s] [ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_optical_mouse.dir/src/gazebo_ros_optical_mouse.cpp.o[0m
+[24.419s] [ 45%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o[0m
+[24.444s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_wheel_drop.dir/src/gazebo_ros_wheel_drop.cpp.o[0m

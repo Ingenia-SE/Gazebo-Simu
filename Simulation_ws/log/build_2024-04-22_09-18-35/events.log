@@ -1,0 +1,670 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (irobot_create_control) JobQueued: {'identifier': 'irobot_create_control', 'dependencies': OrderedDict()}
+[0.000148] (irobot_create_ignition_plugins) JobQueued: {'identifier': 'irobot_create_ignition_plugins', 'dependencies': OrderedDict()}
+[0.000171] (irobot_create_toolbox) JobQueued: {'identifier': 'irobot_create_toolbox', 'dependencies': OrderedDict()}
+[0.000189] (irobot_create_description) JobQueued: {'identifier': 'irobot_create_description', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control')])}
+[0.000209] (irobot_create_gazebo_plugins) JobQueued: {'identifier': 'irobot_create_gazebo_plugins', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox')])}
+[0.000229] (irobot_create_ignition_toolbox) JobQueued: {'identifier': 'irobot_create_ignition_toolbox', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox')])}
+[0.000249] (irobot_create_nodes) JobQueued: {'identifier': 'irobot_create_nodes', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox')])}
+[0.000267] (irobot_create_common_bringup) JobQueued: {'identifier': 'irobot_create_common_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control'), ('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox'), ('irobot_create_description', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description'), ('irobot_create_nodes', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes')])}
+[0.000294] (irobot_create_gazebo_bringup) JobQueued: {'identifier': 'irobot_create_gazebo_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control'), ('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox'), ('irobot_create_description', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description'), ('irobot_create_gazebo_plugins', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins'), ('irobot_create_nodes', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes'), ('irobot_create_common_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup')])}
+[0.000663] (irobot_create_ignition_bringup) JobQueued: {'identifier': 'irobot_create_ignition_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control'), ('irobot_create_ignition_plugins', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins'), ('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox'), ('irobot_create_description', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description'), ('irobot_create_ignition_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_toolbox'), ('irobot_create_nodes', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes'), ('irobot_create_common_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup')])}
+[0.000707] (irobot_create_gazebo_sim) JobQueued: {'identifier': 'irobot_create_gazebo_sim', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control'), ('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox'), ('irobot_create_description', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description'), ('irobot_create_gazebo_plugins', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_plugins'), ('irobot_create_nodes', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes'), ('irobot_create_common_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup'), ('irobot_create_gazebo_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_gazebo_bringup')])}
+[0.000746] (irobot_create_ignition_sim) JobQueued: {'identifier': 'irobot_create_ignition_sim', 'dependencies': OrderedDict([('irobot_create_control', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control'), ('irobot_create_ignition_plugins', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins'), ('irobot_create_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox'), ('irobot_create_description', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description'), ('irobot_create_ignition_toolbox', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_toolbox'), ('irobot_create_nodes', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_nodes'), ('irobot_create_common_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_common_bringup'), ('irobot_create_ignition_bringup', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_bringup')])}
+[0.000785] (irobot_create_toolbox) JobStarted: {'identifier': 'irobot_create_toolbox'}
+[0.008547] (irobot_create_control) JobStarted: {'identifier': 'irobot_create_control'}
+[0.011645] (irobot_create_ignition_plugins) JobStarted: {'identifier': 'irobot_create_ignition_plugins'}
+[0.017760] (irobot_create_toolbox) JobProgress: {'identifier': 'irobot_create_toolbox', 'progress': 'cmake'}
+[0.018974] (irobot_create_toolbox) JobProgress: {'identifier': 'irobot_create_toolbox', 'progress': 'build'}
+[0.019902] (irobot_create_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.023223] (irobot_create_control) JobProgress: {'identifier': 'irobot_create_control', 'progress': 'cmake'}
+[0.025083] (irobot_create_control) JobProgress: {'identifier': 'irobot_create_control', 'progress': 'build'}
+[0.025174] (irobot_create_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029229] (irobot_create_ignition_plugins) JobProgress: {'identifier': 'irobot_create_ignition_plugins', 'progress': 'cmake'}
+[0.031047] (irobot_create_ignition_plugins) JobProgress: {'identifier': 'irobot_create_ignition_plugins', 'progress': 'build'}
+[0.031692] (irobot_create_ignition_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096005] (irobot_create_control) CommandEnded: {'returncode': 0}
+[0.099391] (-) TimerEvent: {}
+[0.101465] (irobot_create_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target irobot_create_toolbox\x1b[0m\n'}
+[0.112453] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mAutomatic MOC for target Create3Hmi\x1b[0m\n'}
+[0.121682] (irobot_create_control) JobProgress: {'identifier': 'irobot_create_control', 'progress': 'install'}
+[0.126843] (irobot_create_toolbox) StdoutLine: {'line': b'[100%] Built target irobot_create_toolbox\n'}
+[0.133723] (irobot_create_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.140847] (irobot_create_toolbox) CommandEnded: {'returncode': 0}
+[0.143669] (irobot_create_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.144607] (irobot_create_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.145886] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control//launch/include/control.py\n'}
+[0.146452] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control//config/control.yaml\n'}
+[0.146964] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/ament_index/resource_index/package_run_dependencies/irobot_create_control\n'}
+[0.147329] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/ament_index/resource_index/parent_prefix_path/irobot_create_control\n'}
+[0.147739] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.sh\n'}
+[0.148083] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.dsv\n'}
+[0.148419] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/environment/path.sh\n'}
+[0.148768] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/environment/path.dsv\n'}
+[0.149127] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/local_setup.bash\n'}
+[0.149486] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/local_setup.sh\n'}
+[0.149849] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/local_setup.zsh\n'}
+[0.150282] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/local_setup.dsv\n'}
+[0.150568] (irobot_create_control) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/package.dsv\n'}
+[0.150839] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[ 16%] Built target Create3Hmi_autogen\n'}
+[0.161996] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/ament_index/resource_index/packages/irobot_create_control\n'}
+[0.162512] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig.cmake\n'}
+[0.162845] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig-version.cmake\n'}
+[0.163293] (irobot_create_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control/share/irobot_create_control/package.xml\n'}
+[0.164998] (irobot_create_ignition_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Create3Hmi\x1b[0m\n'}
+[0.166082] (irobot_create_control) CommandEnded: {'returncode': 0}
+[0.178926] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi.cc.o\x1b[0m\n'}
+[0.179074] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.191295] (irobot_create_toolbox) JobProgress: {'identifier': 'irobot_create_toolbox', 'progress': 'install'}
+[0.191739] (irobot_create_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199543] (-) TimerEvent: {}
+[0.202208] (irobot_create_toolbox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.203506] (irobot_create_toolbox) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.204469] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so\n'}
+[0.205815] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp\n'}
+[0.206171] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp\n'}
+[0.206622] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp\n'}
+[0.207769] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh\n'}
+[0.208274] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv\n'}
+[0.209028] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox\n'}
+[0.209630] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox\n'}
+[0.210031] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh\n'}
+[0.210576] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv\n'}
+[0.210937] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh\n'}
+[0.211486] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv\n'}
+[0.211981] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash\n'}
+[0.212523] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh\n'}
+[0.212972] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh\n'}
+[0.213647] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv\n'}
+[0.213899] (irobot_create_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv\n'}
+[0.225162] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox\n'}
+[0.225607] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.226617] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.227035] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.227979] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake\n'}
+[0.228267] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake\n'}
+[0.228827] (irobot_create_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml\n'}
+[0.230174] (irobot_create_control) JobEnded: {'identifier': 'irobot_create_control', 'rc': 0}
+[0.232115] (irobot_create_description) JobStarted: {'identifier': 'irobot_create_description'}
+[0.235714] (irobot_create_toolbox) CommandEnded: {'returncode': 0}
+[0.247077] (irobot_create_description) JobProgress: {'identifier': 'irobot_create_description', 'progress': 'cmake'}
+[0.247960] (irobot_create_description) JobProgress: {'identifier': 'irobot_create_description', 'progress': 'build'}
+[0.248788] (irobot_create_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble')]), 'shell': False}
+[0.284635] (irobot_create_toolbox) JobEnded: {'identifier': 'irobot_create_toolbox', 'rc': 0}
+[0.285397] (irobot_create_nodes) JobStarted: {'identifier': 'irobot_create_nodes'}
+[0.294702] (irobot_create_nodes) JobProgress: {'identifier': 'irobot_create_nodes', 'progress': 'cmake'}
+[0.296673] (irobot_create_nodes) JobProgress: {'identifier': 'irobot_create_nodes', 'progress': 'build'}
+[0.298189] (irobot_create_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_nodes', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_nodes', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_nodes'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble')]), 'shell': False}
+[0.301427] (-) TimerEvent: {}
+[0.301860] (irobot_create_description) CommandEnded: {'returncode': 0}
+[0.326763] (irobot_create_description) JobProgress: {'identifier': 'irobot_create_description', 'progress': 'install'}
+[0.327454] (irobot_create_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_control:/opt/ros/humble')]), 'shell': False}
+[0.337082] (irobot_create_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.337699] (irobot_create_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.338901] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//meshes/body_visual.dae\n'}
+[0.339204] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_collision.dae\n'}
+[0.339441] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_visual.dae\n'}
+[0.339669] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//meshes/dock/visual.dae\n'}
+[0.340683] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/bumper.urdf.xacro\n'}
+[0.340943] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/button.urdf.xacro\n'}
+[0.341216] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/caster.urdf.xacro\n'}
+[0.341453] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/common_properties.urdf.xacro\n'}
+[0.341646] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/create3.urdf.xacro\n'}
+[0.341835] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/ir_emitter.urdf.xacro\n'}
+[0.342071] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/standard_dock.urdf.xacro\n'}
+[0.342286] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/cliff_sensor.urdf.xacro\n'}
+[0.342507] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/imu.urdf.xacro\n'}
+[0.342721] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_intensity.urdf.xacro\n'}
+[0.342934] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_opcode_receivers.urdf.xacro\n'}
+[0.343243] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/optical_mouse.urdf.xacro\n'}
+[0.343838] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel.urdf.xacro\n'}
+[0.344136] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_drop.urdf.xacro\n'}
+[0.344362] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_with_wheeldrop.urdf.xacro\n'}
+[0.344704] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/ament_index/resource_index/package_run_dependencies/irobot_create_description\n'}
+[0.344999] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/ament_index/resource_index/parent_prefix_path/irobot_create_description\n'}
+[0.345260] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.sh\n'}
+[0.345512] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.dsv\n'}
+[0.345827] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/environment/path.sh\n'}
+[0.346163] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/environment/path.dsv\n'}
+[0.346507] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/local_setup.bash\n'}
+[0.346782] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/local_setup.sh\n'}
+[0.347071] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/local_setup.zsh\n'}
+[0.347369] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/local_setup.dsv\n'}
+[0.347618] (irobot_create_description) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/package.dsv\n'}
+[0.361097] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/ament_index/resource_index/packages/irobot_create_description\n'}
+[0.362162] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig.cmake\n'}
+[0.362942] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig-version.cmake\n'}
+[0.363850] (irobot_create_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_description/share/irobot_create_description/package.xml\n'}
+[0.368964] (irobot_create_description) CommandEnded: {'returncode': 0}
+[0.395867] (irobot_create_nodes) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/hazard_publisher_lib.dir/src/hazards_vector_publisher.cpp.o\x1b[0m\n'}
+[0.397836] (irobot_create_nodes) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o\x1b[0m\n'}
+[0.400622] (irobot_create_nodes) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o\x1b[0m\n'}
+[0.401516] (-) TimerEvent: {}
+[0.402266] (irobot_create_nodes) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/hazards_vector_publisher.dir/rclcpp_components/node_main_hazards_vector_publisher.cpp.o\x1b[0m\n'}
+[0.413140] (irobot_create_nodes) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ir_intensity_publisher_lib.dir/src/ir_intensity_vector_publisher.cpp.o\x1b[0m\n'}
+[0.416989] (irobot_create_nodes) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ir_intensity_vector_publisher.dir/rclcpp_components/node_main_ir_intensity_vector_publisher.cpp.o\x1b[0m\n'}
+[0.417268] (irobot_create_nodes) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/wheel_status_publisher.dir/rclcpp_components/node_main_wheel_status_publisher.cpp.o\x1b[0m\n'}
+[0.425820] (irobot_create_nodes) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/wheel_status_publisher_lib.dir/src/wheels_publisher.cpp.o\x1b[0m\n'}
+[0.501637] (-) TimerEvent: {}
+[0.522315] (irobot_create_description) JobEnded: {'identifier': 'irobot_create_description', 'rc': 0}
+[0.522829] (irobot_create_gazebo_plugins) JobStarted: {'identifier': 'irobot_create_gazebo_plugins'}
+[0.605406] (irobot_create_gazebo_plugins) JobProgress: {'identifier': 'irobot_create_gazebo_plugins', 'progress': 'cmake'}
+[0.605469] (-) TimerEvent: {}
+[0.612814] (irobot_create_gazebo_plugins) JobProgress: {'identifier': 'irobot_create_gazebo_plugins', 'progress': 'build'}
+[0.612898] (irobot_create_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_plugins', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_plugins', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_gazebo_plugins'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble')]), 'shell': False}
+[0.705595] (-) TimerEvent: {}
+[0.806009] (-) TimerEvent: {}
+[0.863777] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_helpers.dir/src/gazebo_ros_helpers.cpp.o\x1b[0m\n'}
+[0.906135] (-) TimerEvent: {}
+[1.006518] (-) TimerEvent: {}
+[1.107002] (-) TimerEvent: {}
+[1.207467] (-) TimerEvent: {}
+[1.307900] (-) TimerEvent: {}
+[1.408298] (-) TimerEvent: {}
+[1.508716] (-) TimerEvent: {}
+[1.609132] (-) TimerEvent: {}
+[1.709566] (-) TimerEvent: {}
+[1.810016] (-) TimerEvent: {}
+[1.910635] (-) TimerEvent: {}
+[2.011466] (-) TimerEvent: {}
+[2.112123] (-) TimerEvent: {}
+[2.212734] (-) TimerEvent: {}
+[2.313350] (-) TimerEvent: {}
+[2.413865] (-) TimerEvent: {}
+[2.514410] (-) TimerEvent: {}
+[2.614940] (-) TimerEvent: {}
+[2.715451] (-) TimerEvent: {}
+[2.815938] (-) TimerEvent: {}
+[2.916419] (-) TimerEvent: {}
+[3.016872] (-) TimerEvent: {}
+[3.117341] (-) TimerEvent: {}
+[3.217833] (-) TimerEvent: {}
+[3.318294] (-) TimerEvent: {}
+[3.418758] (-) TimerEvent: {}
+[3.519300] (-) TimerEvent: {}
+[3.619776] (-) TimerEvent: {}
+[3.722799] (-) TimerEvent: {}
+[3.823304] (-) TimerEvent: {}
+[3.923775] (-) TimerEvent: {}
+[4.024234] (-) TimerEvent: {}
+[4.124725] (-) TimerEvent: {}
+[4.225194] (-) TimerEvent: {}
+[4.325690] (-) TimerEvent: {}
+[4.426223] (-) TimerEvent: {}
+[4.526671] (-) TimerEvent: {}
+[4.627159] (-) TimerEvent: {}
+[4.727603] (-) TimerEvent: {}
+[4.828088] (-) TimerEvent: {}
+[4.928556] (-) TimerEvent: {}
+[5.029034] (-) TimerEvent: {}
+[5.129529] (-) TimerEvent: {}
+[5.230035] (-) TimerEvent: {}
+[5.330503] (-) TimerEvent: {}
+[5.431075] (-) TimerEvent: {}
+[5.531615] (-) TimerEvent: {}
+[5.632146] (-) TimerEvent: {}
+[5.732700] (-) TimerEvent: {}
+[5.833274] (-) TimerEvent: {}
+[5.933747] (-) TimerEvent: {}
+[6.034359] (-) TimerEvent: {}
+[6.134947] (-) TimerEvent: {}
+[6.235543] (-) TimerEvent: {}
+[6.336119] (-) TimerEvent: {}
+[6.436688] (-) TimerEvent: {}
+[6.537250] (-) TimerEvent: {}
+[6.637828] (-) TimerEvent: {}
+[6.738462] (-) TimerEvent: {}
+[6.839054] (-) TimerEvent: {}
+[6.939649] (-) TimerEvent: {}
+[7.040241] (-) TimerEvent: {}
+[7.140836] (-) TimerEvent: {}
+[7.241474] (-) TimerEvent: {}
+[7.342116] (-) TimerEvent: {}
+[7.442722] (-) TimerEvent: {}
+[7.543294] (-) TimerEvent: {}
+[7.643878] (-) TimerEvent: {}
+[7.744435] (-) TimerEvent: {}
+[7.845104] (-) TimerEvent: {}
+[7.945801] (-) TimerEvent: {}
+[8.046428] (-) TimerEvent: {}
+[8.146999] (-) TimerEvent: {}
+[8.247597] (-) TimerEvent: {}
+[8.348192] (-) TimerEvent: {}
+[8.448761] (-) TimerEvent: {}
+[8.549322] (-) TimerEvent: {}
+[8.649892] (-) TimerEvent: {}
+[8.750437] (-) TimerEvent: {}
+[8.851007] (-) TimerEvent: {}
+[8.951610] (-) TimerEvent: {}
+[9.052205] (-) TimerEvent: {}
+[9.152793] (-) TimerEvent: {}
+[9.253374] (-) TimerEvent: {}
+[9.353944] (-) TimerEvent: {}
+[9.454547] (-) TimerEvent: {}
+[9.555114] (-) TimerEvent: {}
+[9.655709] (-) TimerEvent: {}
+[9.756296] (-) TimerEvent: {}
+[9.856798] (-) TimerEvent: {}
+[9.957417] (-) TimerEvent: {}
+[10.057936] (-) TimerEvent: {}
+[10.158498] (-) TimerEvent: {}
+[10.191660] (irobot_create_nodes) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX executable ir_intensity_vector_publisher\x1b[0m\n'}
+[10.258629] (-) TimerEvent: {}
+[10.359292] (-) TimerEvent: {}
+[10.471333] (-) TimerEvent: {}
+[10.564945] (irobot_create_nodes) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX executable motion_control\x1b[0m\n'}
+[10.571438] (-) TimerEvent: {}
+[10.678364] (-) TimerEvent: {}
+[10.778970] (-) TimerEvent: {}
+[10.879657] (-) TimerEvent: {}
+[10.980174] (-) TimerEvent: {}
+[11.070737] (irobot_create_nodes) StdoutLine: {'line': b'[ 27%] Built target ir_intensity_vector_publisher\n'}
+[11.080298] (-) TimerEvent: {}
+[11.093074] (irobot_create_nodes) StdoutLine: {'line': b'[ 27%] Built target motion_control\n'}
+[11.127006] (irobot_create_nodes) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o\x1b[0m\n'}
+[11.180430] (-) TimerEvent: {}
+[11.190060] (irobot_create_nodes) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o\x1b[0m\n'}
+[11.280567] (-) TimerEvent: {}
+[11.378657] (irobot_create_nodes) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable wheel_status_publisher\x1b[0m\n'}
+[11.380681] (-) TimerEvent: {}
+[11.481329] (-) TimerEvent: {}
+[11.581929] (-) TimerEvent: {}
+[11.682624] (-) TimerEvent: {}
+[11.783275] (-) TimerEvent: {}
+[11.883857] (-) TimerEvent: {}
+[11.984325] (-) TimerEvent: {}
+[12.053238] (irobot_create_nodes) StdoutLine: {'line': b'[ 35%] Built target wheel_status_publisher\n'}
+[12.084448] (-) TimerEvent: {}
+[12.115376] (irobot_create_nodes) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o\x1b[0m\n'}
+[12.136571] (irobot_create_nodes) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable hazards_vector_publisher\x1b[0m\n'}
+[12.184577] (-) TimerEvent: {}
+[12.285063] (-) TimerEvent: {}
+[12.385488] (-) TimerEvent: {}
+[12.486035] (-) TimerEvent: {}
+[12.586653] (-) TimerEvent: {}
+[12.642557] (irobot_create_nodes) StdoutLine: {'line': b'[ 40%] Built target hazards_vector_publisher\n'}
+[12.686781] (-) TimerEvent: {}
+[12.787274] (-) TimerEvent: {}
+[12.826955] (irobot_create_nodes) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/robot_state.dir/rclcpp_components/node_main_robot_state.cpp.o\x1b[0m\n'}
+[12.887401] (-) TimerEvent: {}
+[12.987864] (-) TimerEvent: {}
+[13.088312] (-) TimerEvent: {}
+[13.188856] (-) TimerEvent: {}
+[13.289392] (-) TimerEvent: {}
+[13.389944] (-) TimerEvent: {}
+[13.490381] (-) TimerEvent: {}
+[13.590822] (-) TimerEvent: {}
+[13.691308] (-) TimerEvent: {}
+[13.791794] (-) TimerEvent: {}
+[13.892279] (-) TimerEvent: {}
+[13.992767] (-) TimerEvent: {}
+[14.093268] (-) TimerEvent: {}
+[14.193757] (-) TimerEvent: {}
+[14.294252] (-) TimerEvent: {}
+[14.394741] (-) TimerEvent: {}
+[14.495259] (-) TimerEvent: {}
+[14.595885] (-) TimerEvent: {}
+[14.696562] (-) TimerEvent: {}
+[14.797188] (-) TimerEvent: {}
+[14.897831] (-) TimerEvent: {}
+[14.998478] (-) TimerEvent: {}
+[15.098970] (-) TimerEvent: {}
+[15.199509] (-) TimerEvent: {}
+[15.299955] (-) TimerEvent: {}
+[15.400393] (-) TimerEvent: {}
+[15.500901] (-) TimerEvent: {}
+[15.601420] (-) TimerEvent: {}
+[15.701920] (-) TimerEvent: {}
+[15.804268] (-) TimerEvent: {}
+[15.904769] (-) TimerEvent: {}
+[16.005280] (-) TimerEvent: {}
+[16.105795] (-) TimerEvent: {}
+[16.206246] (-) TimerEvent: {}
+[16.306734] (-) TimerEvent: {}
+[16.407237] (-) TimerEvent: {}
+[16.507761] (-) TimerEvent: {}
+[16.608336] (-) TimerEvent: {}
+[16.708788] (-) TimerEvent: {}
+[16.809278] (-) TimerEvent: {}
+[16.909867] (-) TimerEvent: {}
+[17.010468] (-) TimerEvent: {}
+[17.111104] (-) TimerEvent: {}
+[17.211771] (-) TimerEvent: {}
+[17.312353] (-) TimerEvent: {}
+[17.412948] (-) TimerEvent: {}
+[17.513519] (-) TimerEvent: {}
+[17.614095] (-) TimerEvent: {}
+[17.714685] (-) TimerEvent: {}
+[17.815369] (-) TimerEvent: {}
+[17.915950] (-) TimerEvent: {}
+[18.016398] (-) TimerEvent: {}
+[18.116848] (-) TimerEvent: {}
+[18.217323] (-) TimerEvent: {}
+[18.317920] (-) TimerEvent: {}
+[18.418490] (-) TimerEvent: {}
+[18.519077] (-) TimerEvent: {}
+[18.619713] (-) TimerEvent: {}
+[18.720312] (-) TimerEvent: {}
+[18.820889] (-) TimerEvent: {}
+[18.921489] (-) TimerEvent: {}
+[19.022136] (-) TimerEvent: {}
+[19.122773] (-) TimerEvent: {}
+[19.223436] (-) TimerEvent: {}
+[19.325082] (-) TimerEvent: {}
+[19.425706] (-) TimerEvent: {}
+[19.526310] (-) TimerEvent: {}
+[19.626937] (-) TimerEvent: {}
+[19.727504] (-) TimerEvent: {}
+[19.829719] (-) TimerEvent: {}
+[19.930236] (-) TimerEvent: {}
+[20.030782] (-) TimerEvent: {}
+[20.131383] (-) TimerEvent: {}
+[20.231981] (-) TimerEvent: {}
+[20.332575] (-) TimerEvent: {}
+[20.433138] (-) TimerEvent: {}
+[20.533736] (-) TimerEvent: {}
+[20.634384] (-) TimerEvent: {}
+[20.735000] (-) TimerEvent: {}
+[20.835587] (-) TimerEvent: {}
+[20.936117] (-) TimerEvent: {}
+[21.036696] (-) TimerEvent: {}
+[21.137248] (-) TimerEvent: {}
+[21.237841] (-) TimerEvent: {}
+[21.338261] (-) TimerEvent: {}
+[21.438658] (-) TimerEvent: {}
+[21.539092] (-) TimerEvent: {}
+[21.639521] (-) TimerEvent: {}
+[21.739947] (-) TimerEvent: {}
+[21.840390] (-) TimerEvent: {}
+[21.940848] (-) TimerEvent: {}
+[22.041294] (-) TimerEvent: {}
+[22.141863] (-) TimerEvent: {}
+[22.242373] (-) TimerEvent: {}
+[22.342891] (-) TimerEvent: {}
+[22.443373] (-) TimerEvent: {}
+[22.543824] (-) TimerEvent: {}
+[22.644282] (-) TimerEvent: {}
+[22.744769] (-) TimerEvent: {}
+[22.845200] (-) TimerEvent: {}
+[22.945777] (-) TimerEvent: {}
+[23.046369] (-) TimerEvent: {}
+[23.146852] (-) TimerEvent: {}
+[23.247295] (-) TimerEvent: {}
+[23.347803] (-) TimerEvent: {}
+[23.387693] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_create_helpers.so\x1b[0m\n'}
+[23.447942] (-) TimerEvent: {}
+[23.548405] (-) TimerEvent: {}
+[23.648856] (-) TimerEvent: {}
+[23.739114] (irobot_create_nodes) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable robot_state\x1b[0m\n'}
+[23.748986] (-) TimerEvent: {}
+[23.849481] (-) TimerEvent: {}
+[23.949960] (-) TimerEvent: {}
+[24.050494] (-) TimerEvent: {}
+[24.150992] (-) TimerEvent: {}
+[24.251651] (-) TimerEvent: {}
+[24.267662] (irobot_create_nodes) StdoutLine: {'line': b'[ 45%] Built target robot_state\n'}
+[24.351763] (-) TimerEvent: {}
+[24.409699] (irobot_create_nodes) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o\x1b[0m\n'}
+[24.451885] (-) TimerEvent: {}
+[24.552366] (-) TimerEvent: {}
+[24.653130] (-) TimerEvent: {}
+[24.711867] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 10%] Built target gazebo_ros_create_helpers\n'}
+[24.753289] (-) TimerEvent: {}
+[24.848834] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o\x1b[0m\n'}
+[24.853417] (-) TimerEvent: {}
+[24.862240] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o\x1b[0m\n'}
+[24.867383] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_bumper.dir/src/gazebo_ros_bumper.cpp.o\x1b[0m\n'}
+[24.877397] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/docking_manager.dir/src/docking_manager.cpp.o\x1b[0m\n'}
+[24.877719] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o\x1b[0m\n'}
+[24.931386] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_optical_mouse.dir/src/gazebo_ros_optical_mouse.cpp.o\x1b[0m\n'}
+[24.941532] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o\x1b[0m\n'}
+[24.953530] (-) TimerEvent: {}
+[24.966823] (irobot_create_gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_create_wheel_drop.dir/src/gazebo_ros_wheel_drop.cpp.o\x1b[0m\n'}
+[25.053653] (-) TimerEvent: {}
+[25.154060] (-) TimerEvent: {}
+[25.254484] (-) TimerEvent: {}
+[25.354904] (-) TimerEvent: {}
+[25.455288] (-) TimerEvent: {}
+[25.555743] (-) TimerEvent: {}
+[25.607806] (irobot_create_nodes) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libir_intensity_publisher_lib.so\x1b[0m\n'}
+[25.655862] (-) TimerEvent: {}
+[25.756265] (-) TimerEvent: {}
+[25.856657] (-) TimerEvent: {}
+[25.957092] (-) TimerEvent: {}
+[26.057527] (-) TimerEvent: {}
+[26.157961] (-) TimerEvent: {}
+[26.258487] (-) TimerEvent: {}
+[26.358953] (-) TimerEvent: {}
+[26.459730] (-) TimerEvent: {}
+[26.560295] (-) TimerEvent: {}
+[26.660711] (-) TimerEvent: {}
+[26.761181] (-) TimerEvent: {}
+[26.861659] (-) TimerEvent: {}
+[26.962185] (-) TimerEvent: {}
+[27.062696] (-) TimerEvent: {}
+[27.101613] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libCreate3Hmi.so\x1b[0m\n'}
+[27.162828] (-) TimerEvent: {}
+[27.263300] (-) TimerEvent: {}
+[27.363780] (-) TimerEvent: {}
+[27.464307] (-) TimerEvent: {}
+[27.564740] (-) TimerEvent: {}
+[27.665311] (-) TimerEvent: {}
+[27.765861] (-) TimerEvent: {}
+[27.866347] (-) TimerEvent: {}
+[27.966858] (-) TimerEvent: {}
+[28.067495] (-) TimerEvent: {}
+[28.168096] (-) TimerEvent: {}
+[28.268562] (-) TimerEvent: {}
+[28.369012] (-) TimerEvent: {}
+[28.469472] (-) TimerEvent: {}
+[28.569962] (-) TimerEvent: {}
+[28.670496] (-) TimerEvent: {}
+[28.770968] (-) TimerEvent: {}
+[28.871513] (-) TimerEvent: {}
+[28.971994] (-) TimerEvent: {}
+[28.990458] (irobot_create_ignition_plugins) StdoutLine: {'line': b'[100%] Built target Create3Hmi\n'}
+[29.061820] (irobot_create_ignition_plugins) CommandEnded: {'returncode': 0}
+[29.072599] (-) TimerEvent: {}
+[29.173016] (-) TimerEvent: {}
+[29.273455] (-) TimerEvent: {}
+[29.373902] (-) TimerEvent: {}
+[29.474373] (-) TimerEvent: {}
+[29.547725] (irobot_create_ignition_plugins) JobProgress: {'identifier': 'irobot_create_ignition_plugins', 'progress': 'install'}
+[29.547848] (irobot_create_ignition_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[29.574497] (-) TimerEvent: {}
+[29.603936] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.605622] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.612545] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/lib/libCreate3Hmi.so\n'}
+[29.674619] (-) TimerEvent: {}
+[29.675530] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_plugins\n'}
+[29.737271] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_plugins\n'}
+[29.774745] (-) TimerEvent: {}
+[29.784269] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.sh\n'}
+[29.819672] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.dsv\n'}
+[29.830072] (irobot_create_nodes) StdoutLine: {'line': b'[ 51%] Built target ir_intensity_publisher_lib\n'}
+[29.874873] (-) TimerEvent: {}
+[29.883112] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.sh\n'}
+[29.892974] (irobot_create_nodes) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/reflex_behavior.cpp.o\x1b[0m\n'}
+[29.946839] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.dsv\n'}
+[29.974996] (-) TimerEvent: {}
+[30.012919] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.bash\n'}
+[30.075138] (-) TimerEvent: {}
+[30.096105] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.sh\n'}
+[30.168199] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.zsh\n'}
+[30.175271] (-) TimerEvent: {}
+[30.227726] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.dsv\n'}
+[30.275398] (-) TimerEvent: {}
+[30.275879] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv\n'}
+[30.321609] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/packages/irobot_create_ignition_plugins\n'}
+[30.375510] (-) TimerEvent: {}
+[30.399505] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig.cmake\n'}
+[30.449930] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig-version.cmake\n'}
+[30.475628] (-) TimerEvent: {}
+[30.503095] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Symlinking: /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.xml\n'}
+[30.536413] (irobot_create_ignition_plugins) CommandEnded: {'returncode': 0}
+[30.585509] (-) TimerEvent: {}
+[30.685900] (-) TimerEvent: {}
+[30.786302] (-) TimerEvent: {}
+[30.886763] (-) TimerEvent: {}
+[30.987339] (-) TimerEvent: {}
+[31.076821] (irobot_create_ignition_plugins) JobEnded: {'identifier': 'irobot_create_ignition_plugins', 'rc': 0}
+[31.077977] (irobot_create_ignition_toolbox) JobStarted: {'identifier': 'irobot_create_ignition_toolbox'}
+[31.087445] (-) TimerEvent: {}
+[31.187924] (-) TimerEvent: {}
+[31.207765] (irobot_create_ignition_toolbox) JobProgress: {'identifier': 'irobot_create_ignition_toolbox', 'progress': 'cmake'}
+[31.210181] (irobot_create_ignition_toolbox) JobProgress: {'identifier': 'irobot_create_ignition_toolbox', 'progress': 'build'}
+[31.211029] (irobot_create_ignition_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_toolbox', 'env': OrderedDict([('USER', 'alex'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alex/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Laptop-A:@/tmp/.ICE-unix/1962,unix/Laptop-A:/tmp/.ICE-unix/1962'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47525d8c_51fa_44eb_9c45_41b0ce793103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMYM2'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '78'), ('AMENT_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_toolbox'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef0e8c8adaf3a912bad26c5166260edb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/alex/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble')]), 'shell': False}
+[31.288062] (-) TimerEvent: {}
+[31.347654] (irobot_create_nodes) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libhazard_publisher_lib.so\x1b[0m\n'}
+[31.388182] (-) TimerEvent: {}
+[31.488650] (-) TimerEvent: {}
+[31.589115] (-) TimerEvent: {}
+[31.689589] (-) TimerEvent: {}
+[31.697588] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_pose_republisher_lib.dir/src/pose_republisher/pose_republisher_node.cpp.o\x1b[0m\n'}
+[31.744392] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_interface_buttons_lib.dir/src/interface_buttons/interface_buttons_node.cpp.o\x1b[0m\n'}
+[31.767883] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/sensors_node.cpp.o\x1b[0m\n'}
+[31.768634] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/bumper.cpp.o\x1b[0m\n'}
+[31.789600] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/cliff.cpp.o\x1b[0m\n'}
+[31.789905] (-) TimerEvent: {}
+[31.827735] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_intensity.cpp.o\x1b[0m\n'}
+[31.831170] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_opcode.cpp.o\x1b[0m\n'}
+[31.836563] (irobot_create_ignition_toolbox) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/mouse.cpp.o\x1b[0m\n'}
+[31.890059] (-) TimerEvent: {}
+[31.990568] (-) TimerEvent: {}
+[32.091071] (-) TimerEvent: {}
+[32.191697] (-) TimerEvent: {}
+[32.292253] (-) TimerEvent: {}
+[32.392712] (-) TimerEvent: {}
+[32.493196] (-) TimerEvent: {}
+[32.593682] (-) TimerEvent: {}
+[32.694211] (-) TimerEvent: {}
+[32.794733] (-) TimerEvent: {}
+[32.895418] (-) TimerEvent: {}
+[32.995864] (-) TimerEvent: {}
+[33.096375] (-) TimerEvent: {}
+[33.196930] (-) TimerEvent: {}
+[33.297415] (-) TimerEvent: {}
+[33.398020] (-) TimerEvent: {}
+[33.498629] (-) TimerEvent: {}
+[33.599143] (-) TimerEvent: {}
+[33.700085] (-) TimerEvent: {}
+[33.800685] (-) TimerEvent: {}
+[33.901111] (-) TimerEvent: {}
+[34.001607] (-) TimerEvent: {}
+[34.102241] (-) TimerEvent: {}
+[34.202863] (-) TimerEvent: {}
+[34.303358] (-) TimerEvent: {}
+[34.403810] (-) TimerEvent: {}
+[34.504307] (-) TimerEvent: {}
+[34.604836] (-) TimerEvent: {}
+[34.705404] (-) TimerEvent: {}
+[34.805894] (-) TimerEvent: {}
+[34.906381] (-) TimerEvent: {}
+[35.006852] (-) TimerEvent: {}
+[35.107416] (-) TimerEvent: {}
+[35.207988] (-) TimerEvent: {}
+[35.308713] (-) TimerEvent: {}
+[35.409417] (-) TimerEvent: {}
+[35.510056] (-) TimerEvent: {}
+[35.610677] (-) TimerEvent: {}
+[35.711361] (-) TimerEvent: {}
+[35.812001] (-) TimerEvent: {}
+[35.912596] (-) TimerEvent: {}
+[36.013249] (-) TimerEvent: {}
+[36.113973] (-) TimerEvent: {}
+[36.214683] (-) TimerEvent: {}
+[36.315318] (-) TimerEvent: {}
+[36.415891] (-) TimerEvent: {}
+[36.516537] (-) TimerEvent: {}
+[36.617077] (-) TimerEvent: {}
+[36.717623] (-) TimerEvent: {}
+[36.818126] (-) TimerEvent: {}
+[36.918674] (-) TimerEvent: {}
+[37.019206] (-) TimerEvent: {}
+[37.099416] (irobot_create_nodes) StdoutLine: {'line': b'[ 56%] Built target hazard_publisher_lib\n'}
+[37.119320] (-) TimerEvent: {}
+[37.219915] (-) TimerEvent: {}
+[37.243472] (irobot_create_nodes) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o\x1b[0m\n'}
+[37.320059] (-) TimerEvent: {}
+[37.420163] (irobot_create_nodes) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ui_mgr.dir/rclcpp_components/node_main_ui_mgr.cpp.o\x1b[0m\n'}
+[37.420490] (-) TimerEvent: {}
+[37.520920] (-) TimerEvent: {}
+[37.621492] (-) TimerEvent: {}
+[37.721859] (-) TimerEvent: {}
+[37.822379] (-) TimerEvent: {}
+[37.922836] (-) TimerEvent: {}
+[37.927364] (irobot_create_nodes) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libwheel_status_publisher_lib.so\x1b[0m\n'}
+[38.022994] (-) TimerEvent: {}
+[38.123780] (-) TimerEvent: {}
+[38.224256] (-) TimerEvent: {}
+[38.324745] (-) TimerEvent: {}
+[38.425200] (-) TimerEvent: {}
+[38.525716] (-) TimerEvent: {}
+[38.626207] (-) TimerEvent: {}
+[38.726567] (-) TimerEvent: {}
+[38.827019] (-) TimerEvent: {}
+[38.927530] (-) TimerEvent: {}
+[39.028010] (-) TimerEvent: {}
+[39.128622] (-) TimerEvent: {}
+[39.229103] (-) TimerEvent: {}
+[39.330086] (-) TimerEvent: {}
+[39.430685] (-) TimerEvent: {}
+[39.531127] (-) TimerEvent: {}
+[39.631662] (-) TimerEvent: {}
+[39.732192] (-) TimerEvent: {}
+[39.832598] (-) TimerEvent: {}
+[39.933102] (-) TimerEvent: {}
+[40.033895] (-) TimerEvent: {}
+[40.134556] (-) TimerEvent: {}
+[40.235066] (-) TimerEvent: {}
+[40.338591] (-) TimerEvent: {}
+[40.439084] (-) TimerEvent: {}
+[40.539580] (-) TimerEvent: {}
+[40.640066] (-) TimerEvent: {}
+[40.740609] (-) TimerEvent: {}
+[40.841068] (-) TimerEvent: {}
+[40.941473] (-) TimerEvent: {}
+[41.041939] (-) TimerEvent: {}
+[41.142557] (-) TimerEvent: {}
+[41.243151] (-) TimerEvent: {}
+[41.343804] (-) TimerEvent: {}
+[41.444389] (-) TimerEvent: {}
+[41.545060] (-) TimerEvent: {}
+[41.645620] (-) TimerEvent: {}
+[41.746369] (-) TimerEvent: {}
+[41.847279] (-) TimerEvent: {}
+[41.947746] (-) TimerEvent: {}
+[42.052077] (-) TimerEvent: {}
+[42.152580] (-) TimerEvent: {}
+[42.253067] (-) TimerEvent: {}
+[42.353584] (-) TimerEvent: {}
+[42.454005] (-) TimerEvent: {}
+[42.554469] (-) TimerEvent: {}
+[42.659227] (-) TimerEvent: {}
+[42.764414] (-) TimerEvent: {}
+[42.864956] (-) TimerEvent: {}
+[42.965668] (-) TimerEvent: {}
+[43.049577] (irobot_create_nodes) StdoutLine: {'line': b'[ 64%] Built target wheel_status_publisher_lib\n'}
+[43.065799] (-) TimerEvent: {}
+[43.166274] (-) TimerEvent: {}
+[43.266719] (-) TimerEvent: {}
+[43.367119] (-) TimerEvent: {}
+[43.467595] (-) TimerEvent: {}
+[43.568102] (-) TimerEvent: {}
+[43.668955] (-) TimerEvent: {}
+[43.771741] (-) TimerEvent: {}
+[43.873203] (-) TimerEvent: {}
+[43.973691] (-) TimerEvent: {}
+[44.074217] (-) TimerEvent: {}
+[44.174837] (-) TimerEvent: {}
+[44.275566] (-) TimerEvent: {}
+[44.376891] (-) TimerEvent: {}
+[44.477457] (-) TimerEvent: {}
+[44.578129] (-) TimerEvent: {}
+[44.679299] (-) TimerEvent: {}
+[44.779747] (-) TimerEvent: {}
+[44.886452] (-) TimerEvent: {}
+[44.987319] (-) TimerEvent: {}
+[45.089316] (-) TimerEvent: {}
+[45.190705] (-) TimerEvent: {}
+[45.723721] (-) TimerEvent: {}

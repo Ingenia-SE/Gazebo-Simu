@@ -1,0 +1,13 @@
+[0.040s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_toolbox -- -j8 -l8
+[0.150s] [  5%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/bumper.cpp.o[0m
+[0.152s] [ 11%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/sensors_node.cpp.o[0m
+[0.156s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_pose_republisher_lib.dir/src/pose_republisher/pose_republisher_node.cpp.o[0m
+[0.166s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/cliff.cpp.o[0m
+[0.171s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_intensity.cpp.o[0m
+[0.171s] [ 33%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_interface_buttons_lib.dir/src/interface_buttons/interface_buttons_node.cpp.o[0m
+[0.196s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_opcode.cpp.o[0m
+[0.217s] [ 44%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/mouse.cpp.o[0m
+[34.457s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[34.485s] compilation terminated.
+[34.488s] gmake[2]: *** [CMakeFiles/irobot_create_ignition_sensors_lib.dir/build.make:146: CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/mouse.cpp.o] Error 1
+[34.488s] gmake[2]: *** Waiting for unfinished jobs....
