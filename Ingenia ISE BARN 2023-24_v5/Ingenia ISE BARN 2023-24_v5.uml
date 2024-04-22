@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_gau4QNf4Ee6B5Pa7voJcnw" name="Ingenia ISE BARN 2023-24">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gbfGMNf4Ee6B5Pa7voJcnw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gbg7YNf4Ee6B5Pa7voJcnw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0faHgNf4Ee6B5Pa7voJcnw" name="System Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JIhZMNf8Ee6B5Pa7voJcnw" name="REQ-1000 System Requirements">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_p4FcINf7Ee6B5Pa7voJcnw" name="REQ-1100 Drone Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_puCkwNf6Ee6B5Pa7voJcnw" name="REQ-1110 Drone Functional Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_HsrNoNf5Ee6B5Pa7voJcnw" name="REQ-1111 Battery"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_kWzgsNgCEe6B5Pa7voJcnw" name="REQ-1112 Take Off"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ofSHENgEEe6B5Pa7voJcnw" name="REQ-1115 Communication"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vWG8UNgBEe6B5Pa7voJcnw" name="REQ-1113 Height Control"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_h4f1wNgDEe6B5Pa7voJcnw" name="REQ-1114 Landing" visibility="public"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="__lFacNgDEe6B5Pa7voJcnw" name="REQ-1115 Obstacles"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_3rewANf6Ee6B5Pa7voJcnw" name="REQ-1120 Drone Non-Functional Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mty8UNf5Ee6B5Pa7voJcnw" name="REQ-1121 Lights"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_THoXkNgFEe6B5Pa7voJcnw" name="REQ-1122 Loss of communication"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Z_P6MNgGEe6B5Pa7voJcnw" name="REQ-1123 Manual Override"/>
+          </nestedClassifier>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_LGxm4NgCEe6B5Pa7voJcnw" name="REQ-1200 AGV Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_enAcMN8cEe6Zh_rkIPlylA" name="REQ-1210 Land Functional Rquierements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_emZiwN8dEe6Zh_rkIPlylA" name="REQ- 1211 Motion"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9M7AIN8dEe6Zh_rkIPlylA" name="REQ- 1212 Battery"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9yYdoN8dEe6Zh_rkIPlylA" name="REQ- 1213 Geolocation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Tb8nEN8eEe6Zh_rkIPlylA" name="REQ-1214 Environment Knowledge"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_iP6KoN8eEe6Zh_rkIPlylA" name="REQ-1215 Data Recopilation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_V3XrMN8fEe6Zh_rkIPlylA" name="REQ-1216 Computer"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qw2bgN8fEe6Zh_rkIPlylA" name="REQ-1217 Shape"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_qlhcoN8cEe6Zh_rkIPlylA" name="REQ-1220 Land Non-Functional Requierements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_u4pMwN8eEe6Zh_rkIPlylA" name="REQ-1221 Communication Protocol"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vDNeAN8eEe6Zh_rkIPlylA" name="REQ-1222 Safety protocol"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vNfbYN8eEe6Zh_rkIPlylA" name="REQ-1223 Reliability Protocol"/>
+          </nestedClassifier>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AVwfwNmAEe6vE49wTfPfYw" name="System BDD" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_jItZQN9-Ee6cl62lY90YGg" name="Ground Robot">
+        <generalization xmi:type="uml:Generalization" xmi:id="_96UWYN-FEe6cl62lY90YGg" general="_qufe4N9-Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_Y55iQN-GEe6cl62lY90YGg" general="_qg2EcN9-Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ZdqWoN-GEe6cl62lY90YGg" general="_qUVScN9-Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_Z_1PkN-GEe6cl62lY90YGg" general="_BsK0MN-CEe6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_anklAN-GEe6cl62lY90YGg" general="_D5lOUN9_Ee6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_q9EGYN9-Ee6cl62lY90YGg" name="IR Sensor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rI6KAN9-Ee6cl62lY90YGg" name="3 buttons"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rU_eMN9-Ee6cl62lY90YGg" name="Sensors">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_8MmpoN-AEe6cl62lY90YGg" name="ir sensor" type="_q9EGYN9-Ee6cl62lY90YGg" association="_8MmCkN-AEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8Mmpod-AEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Mmpot-AEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_MT1y8t-BEe6cl62lY90YGg" name="encoder sensor on whees" type="_u2VBgN9_Ee6cl62lY90YGg" association="_MT1L4N-BEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MT1y89-BEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MT1y9N-BEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OYPToN-BEe6cl62lY90YGg" name="cliff sensor" type="_uDEYkN9_Ee6cl62lY90YGg" association="_OYOskN-BEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYPTod-BEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYPTot-BEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ssy3Q9-BEe6cl62lY90YGg" name="optiacal odometry sensor" type="_ncUcIN-BEe6cl62lY90YGg" association="_ssy3QN-BEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sszeUN-BEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sszeUd-BEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ukV80t-DEe6cl62lY90YGg" name="3d gryroscope" type="_rAro0N-DEe6cl62lY90YGg" association="_ukVVwN-DEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ukV809-DEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ukV81N-DEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__BMw0t-DEe6cl62lY90YGg" name="3d accelerometer " type="_wcWnUN-DEe6cl62lY90YGg" association="__BMJwN-DEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__BMw09-DEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__BMw1N-DEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_x2RZ4N9-Ee6cl62lY90YGg" name="Chassis"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OcRxAN9_Ee6cl62lY90YGg" name="Wheels"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ou4j8N9_Ee6cl62lY90YGg" name="Support Structure"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YOggEN9_Ee6cl62lY90YGg" name="Motor (watts)"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dgZ3gN9_Ee6cl62lY90YGg" name="Battery"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uDEYkN9_Ee6cl62lY90YGg" name="Cliff Sensor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_u2VBgN9_Ee6cl62lY90YGg" name="Encoder Sensor on whees"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vkWlIN9_Ee6cl62lY90YGg" name="6 RGB LEDs"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZRRIIN-AEe6cl62lY90YGg" name="Indicators">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7AT1o9-AEe6cl62lY90YGg" name="6 rgb leds" type="_vkWlIN9_Ee6cl62lY90YGg" association="_7AT1oN-AEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7AUcsN-AEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7AUcsd-AEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lYuh0N-DEe6cl62lY90YGg" name="speaker" type="_hme_QN-DEe6cl62lY90YGg" association="_lYt6wN-DEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lYuh0d-DEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lYuh0t-DEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7AT1oN-AEe6cl62lY90YGg" memberEnd="_7AT1o9-AEe6cl62lY90YGg _7AUcst-AEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7AT1od-AEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7AT1ot-AEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_7AUcst-AEe6cl62lY90YGg" name="indicators" type="_ZRRIIN-AEe6cl62lY90YGg" association="_7AT1oN-AEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8MmCkN-AEe6cl62lY90YGg" memberEnd="_8MmpoN-AEe6cl62lY90YGg _8Mmpo9-AEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8MmCkd-AEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8MmCkt-AEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8Mmpo9-AEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="_8MmCkN-AEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MT1L4N-BEe6cl62lY90YGg" memberEnd="_MT1y8t-BEe6cl62lY90YGg _MT1y9d-BEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MT1y8N-BEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MT1y8d-BEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_MT1y9d-BEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="_MT1L4N-BEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OYOskN-BEe6cl62lY90YGg" memberEnd="_OYPToN-BEe6cl62lY90YGg _OYPTo9-BEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OYOskd-BEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OYOskt-BEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OYPTo9-BEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="_OYOskN-BEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ncUcIN-BEe6cl62lY90YGg" name="Optiacal Odometry Sensor"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ssy3QN-BEe6cl62lY90YGg" memberEnd="_ssy3Q9-BEe6cl62lY90YGg _sszeUt-BEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ssy3Qd-BEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ssy3Qt-BEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_sszeUt-BEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="_ssy3QN-BEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xjXkoN-BEe6cl62lY90YGg" name="Controller">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2RDbwt-BEe6cl62lY90YGg" name="block59" type="_1WOyQN-BEe6cl62lY90YGg" association="_2RC0sN-BEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2RDbw9-BEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2RDbxN-BEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1WOyQN-BEe6cl62lY90YGg"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2RC0sN-BEe6cl62lY90YGg" memberEnd="_2RDbwt-BEe6cl62lY90YGg _2RDbxd-BEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2RDbwN-BEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2RDbwd-BEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2RDbxd-BEe6cl62lY90YGg" name="controller" type="_xjXkoN-BEe6cl62lY90YGg" association="_2RC0sN-BEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HQxFMN-CEe6cl62lY90YGg" name="Bluetooth module"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NHwGsN-CEe6cl62lY90YGg" name="USB-Type C module"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_XYxDgN-CEe6cl62lY90YGg" name="Charging Station"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qRsRUN-CEe6cl62lY90YGg" name="Actuators">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_t4n7wt-CEe6cl62lY90YGg" name="3 buttons" type="_rI6KAN9-Ee6cl62lY90YGg" association="_t4nUsN-CEe6cl62lY90YGg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t4n7w9-CEe6cl62lY90YGg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t4n7xN-CEe6cl62lY90YGg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_t4nUsN-CEe6cl62lY90YGg" memberEnd="_t4n7wt-CEe6cl62lY90YGg _t4n7xd-CEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t4n7wN-CEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t4n7wd-CEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_t4n7xd-CEe6cl62lY90YGg" name="actuators" type="_qRsRUN-CEe6cl62lY90YGg" association="_t4nUsN-CEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hme_QN-DEe6cl62lY90YGg" name="Speaker"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_lYt6wN-DEe6cl62lY90YGg" memberEnd="_lYuh0N-DEe6cl62lY90YGg _lYuh09-DEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lYt6wd-DEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lYt6wt-DEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lYuh09-DEe6cl62lY90YGg" name="indicators" type="_ZRRIIN-AEe6cl62lY90YGg" association="_lYt6wN-DEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rAro0N-DEe6cl62lY90YGg" name="3D Gryroscope"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ukVVwN-DEe6cl62lY90YGg" memberEnd="_ukV80t-DEe6cl62lY90YGg _ukV81d-DEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ukV80N-DEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ukV80d-DEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ukV81d-DEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="_ukVVwN-DEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wcWnUN-DEe6cl62lY90YGg" name="3D Accelerometer "/>
+      <packagedElement xmi:type="uml:Association" xmi:id="__BMJwN-DEe6cl62lY90YGg" memberEnd="__BMw0t-DEe6cl62lY90YGg __BMw1d-DEe6cl62lY90YGg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__BMw0N-DEe6cl62lY90YGg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__BMw0d-DEe6cl62lY90YGg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="__BMw1d-DEe6cl62lY90YGg" name="sensors" type="_rU_eMN9-Ee6cl62lY90YGg" association="__BMJwN-DEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qufe4N9-Ee6cl62lY90YGg" name="Navigation">
+        <generalization xmi:type="uml:Generalization" xmi:id="__S2PkN-FEe6cl62lY90YGg" general="_rU_eMN9-Ee6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_D5lOUN9_Ee6cl62lY90YGg" name="Control">
+        <generalization xmi:type="uml:Generalization" xmi:id="_B5HHMN-GEe6cl62lY90YGg" general="_qRsRUN-CEe6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_C9nRIN-GEe6cl62lY90YGg" general="_ZRRIIN-AEe6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_DhOUgN-GEe6cl62lY90YGg" general="_xjXkoN-BEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BsK0MN-CEe6cl62lY90YGg" name="Communication">
+        <generalization xmi:type="uml:Generalization" xmi:id="_IGUQUN-GEe6cl62lY90YGg" general="_HQxFMN-CEe6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_IfGjwN-GEe6cl62lY90YGg" general="_NHwGsN-CEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qg2EcN9-Ee6cl62lY90YGg" name="Energy System">
+        <generalization xmi:type="uml:Generalization" xmi:id="_UquzIN-GEe6cl62lY90YGg" general="_dgZ3gN9_Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_VD2dwN-GEe6cl62lY90YGg" general="_XYxDgN-CEe6cl62lY90YGg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qUVScN9-Ee6cl62lY90YGg" name="Mechannical System">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Rh0hcN-GEe6cl62lY90YGg" general="_x2RZ4N9-Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_S0ylMN-GEe6cl62lY90YGg" general="_Ou4j8N9_Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_TRkn0N-GEe6cl62lY90YGg" general="_OcRxAN9_Ee6cl62lY90YGg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_TqXiUN-GEe6cl62lY90YGg" general="_YOggEN9_Ee6cl62lY90YGg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_k9llsPXDEe6jLY2Xy0Dgug" name="System Secuence"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ga5QUNf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ga5QUdf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4ENf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4Edf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4Etf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4E9f4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4FNf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4Fdf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4Ftf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4F9f4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4GNf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4Gdf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4Gtf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4G9f4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4HNf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4Hdf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4Htf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4H9f4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gbd4INf4Ee6B5Pa7voJcnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd4Idf4Ee6B5Pa7voJcnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_HtPOUNf5Ee6B5Pa7voJcnw" base_NamedElement="_HsrNoNf5Ee6B5Pa7voJcnw" id="REQ-1111" text="The drone must have at least 10 minutes of hovering flight autonomy.&#xA;" base_Class="_HsrNoNf5Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_mt0KcNf5Ee6B5Pa7voJcnw" base_NamedElement="_mty8UNf5Ee6B5Pa7voJcnw" id="REQ-1121" text="The drone must have four indication lights, one on each drone arm. The front lights must be of a different color than the rear ones." base_Class="_mty8UNf5Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_puFoENf6Ee6B5Pa7voJcnw" base_NamedElement="_puCkwNf6Ee6B5Pa7voJcnw" id="REQ-1110" base_Class="_puCkwNf6Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_3rf-INf6Ee6B5Pa7voJcnw" base_NamedElement="_3rewANf6Ee6B5Pa7voJcnw" id="REQ-1120" base_Class="_3rewANf6Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_p4HRUNf7Ee6B5Pa7voJcnw" base_NamedElement="_p4FcINf7Ee6B5Pa7voJcnw" id="REQ-1100" base_Class="_p4FcINf7Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_JIinUNf8Ee6B5Pa7voJcnw" base_NamedElement="_JIhZMNf8Ee6B5Pa7voJcnw" id="REQ-1000" base_Class="_JIhZMNf8Ee6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_vWIxgNgBEe6B5Pa7voJcnw" base_NamedElement="_vWG8UNgBEe6B5Pa7voJcnw" id="REQ-1113" text="The drone should be able to hover at a determined height, being as stable as possible.&#xA;" base_Class="_vWG8UNgBEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_LGy1ANgCEe6B5Pa7voJcnw" base_NamedElement="_LGxm4NgCEe6B5Pa7voJcnw" id="REQ-1200" base_Class="_LGxm4NgCEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_kW0u0NgCEe6B5Pa7voJcnw" base_NamedElement="_kWzgsNgCEe6B5Pa7voJcnw" id="REQ-1112" text="The drone must take off vertically when it is demanded by the operator." base_Class="_kWzgsNgCEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_h4hD4NgDEe6B5Pa7voJcnw" base_NamedElement="_h4f1wNgDEe6B5Pa7voJcnw" id="REQ-1114" text="The drone must be able to perform an autonomous landing in a determined place." base_Class="_h4f1wNgDEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="__lGokNgDEe6B5Pa7voJcnw" base_NamedElement="__lFacNgDEe6B5Pa7voJcnw" id="REQ-1115" text="The drone must have obstacle-avoidance capabilities.&#xA;" base_Class="__lFacNgDEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_ofTVMNgEEe6B5Pa7voJcnw" base_NamedElement="_ofSHENgEEe6B5Pa7voJcnw" id="REQ-1115" text="The drone must be able to communicate with other systems connected to the same WLAN.&#xA;" base_Class="_ofSHENgEEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_THo-oNgFEe6B5Pa7voJcnw" base_NamedElement="_THoXkNgFEe6B5Pa7voJcnw" id="REQ-1122" text="If there is a loss of communication between the drone and the WLAN for more than 30 seconds, it should perform an autonomous landing." base_Class="_THoXkNgFEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_Z_RIUNgGEe6B5Pa7voJcnw" base_NamedElement="_Z_P6MNgGEe6B5Pa7voJcnw" id="REQ-1123" text="It must be possible to manipulate the drone using direct orders from an operator. This system will be used in case of malfunction." base_Class="_Z_P6MNgGEe6B5Pa7voJcnw"/>
+  <Requirements:Requirement xmi:id="_enEGkN8cEe6Zh_rkIPlylA" base_NamedElement="_enAcMN8cEe6Zh_rkIPlylA" id="REQ-1210" base_Class="_enAcMN8cEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_qlj44N8cEe6Zh_rkIPlylA" base_NamedElement="_qlhcoN8cEe6Zh_rkIPlylA" id="REQ-1220" base_Class="_qlhcoN8cEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_emb_AN8dEe6Zh_rkIPlylA" base_NamedElement="_emZiwN8dEe6Zh_rkIPlylA" id="REQ- 1211" text=": To achieve all objectives. The robot will have 360º, to gain accurate &#xD;&#xA;precision and greater mobility in all directions." base_Class="_emZiwN8dEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_9M8OUt8dEe6Zh_rkIPlylA" base_NamedElement="_9M7AIN8dEe6Zh_rkIPlylA" id="REQ- 1212" text="The battery must last at least the operation time" base_Class="_9M7AIN8dEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_9yaS0N8dEe6Zh_rkIPlylA" base_NamedElement="_9yYdoN8dEe6Zh_rkIPlylA" id="REQ- 1213" text="The robot must be able of knowing where it is in the circuit even if it is the first time in &#xD;&#xA;it. This could be achieved using a drone. " base_Class="_9yYdoN8dEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_Tb-cQN8eEe6Zh_rkIPlylA" base_NamedElement="_Tb8nEN8eEe6Zh_rkIPlylA" id="REQ-1214" text="The robot must have sensors in all its faces to successfully understand the surroundings." base_Class="_Tb8nEN8eEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_iP7Yz98eEe6Zh_rkIPlylA" base_NamedElement="_iP6KoN8eEe6Zh_rkIPlylA" id="REQ-1215" text="To save all the data, not only we could use cloud services, but also, we could install a &#xD;&#xA;memory card." base_Class="_iP6KoN8eEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_u4rB8N8eEe6Zh_rkIPlylA" base_NamedElement="_u4pMwN8eEe6Zh_rkIPlylA" id="REQ-1221" text="Communication messages should have a structure where the information is given&#xD;&#xA;adequately and simplify." base_Class="_u4pMwN8eEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_vDPTMN8eEe6Zh_rkIPlylA" base_NamedElement="_vDNeAN8eEe6Zh_rkIPlylA" id="REQ-1222" text="The robot shall be able of completing its task without putting under any risk the safety of&#xD;&#xA;the participants of the competition" base_Class="_vDNeAN8eEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_vNhQkN8eEe6Zh_rkIPlylA" base_NamedElement="_vNfbYN8eEe6Zh_rkIPlylA" id="REQ-1223" text="The robot shall be able of completing its task while guaranteeing proper conditions of operation." base_Class="_vNfbYN8eEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_V3ZgYN8fEe6Zh_rkIPlylA" base_NamedElement="_V3XrMN8fEe6Zh_rkIPlylA" id="REQ-1216" text="The onboard computer, with the executed program, must be able of handling the contains that could face in the race and try to achieve the objectives as fast as possible." base_Class="_V3XrMN8fEe6Zh_rkIPlylA"/>
+  <Requirements:Requirement xmi:id="_qw4QsN8fEe6Zh_rkIPlylA" base_NamedElement="_qw2bgN8fEe6Zh_rkIPlylA" id="REQ-1217" text="To achieve the objectives, the robot should be round shaped. This is due to the ability of this vehicles to adapt to basically any environment." base_Class="_qw2bgN8fEe6Zh_rkIPlylA"/>
+  <Blocks:Block xmi:id="_jI2jMN9-Ee6cl62lY90YGg" base_Class="_jItZQN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_qUYVwN9-Ee6cl62lY90YGg" base_Class="_qUVScN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_qg4gsN9-Ee6cl62lY90YGg" base_Class="_qg2EcN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_quh7IN9-Ee6cl62lY90YGg" base_Class="_qufe4N9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_q9GioN9-Ee6cl62lY90YGg" base_Class="_q9EGYN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_rI7_MN9-Ee6cl62lY90YGg" base_Class="_rI6KAN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_rVB6cN9-Ee6cl62lY90YGg" base_Class="_rU_eMN9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_x2T2IN9-Ee6cl62lY90YGg" base_Class="_x2RZ4N9-Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_D5nDgN9_Ee6cl62lY90YGg" base_Class="_D5lOUN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_OcUNQN9_Ee6cl62lY90YGg" base_Class="_OcRxAN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_Ou6ZIN9_Ee6cl62lY90YGg" base_Class="_Ou4j8N9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_YOhuMN9_Ee6cl62lY90YGg" base_Class="_YOggEN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_dgbssN9_Ee6cl62lY90YGg" base_Class="_dgZ3gN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_uDG00N9_Ee6cl62lY90YGg" base_Class="_uDEYkN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_u2W2sN9_Ee6cl62lY90YGg" base_Class="_u2VBgN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_vkYaUN9_Ee6cl62lY90YGg" base_Class="_vkWlIN9_Ee6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_ZRSWQN-AEe6cl62lY90YGg" base_Class="_ZRRIIN-AEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_ncWRUN-BEe6cl62lY90YGg" base_Class="_ncUcIN-BEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_xjZZ0N-BEe6cl62lY90YGg" base_Class="_xjXkoN-BEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_1WQAYN-BEe6cl62lY90YGg" base_Class="_1WOyQN-BEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_BsMpYN-CEe6cl62lY90YGg" base_Class="_BsK0MN-CEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_HQy6YN-CEe6cl62lY90YGg" base_Class="_HQxFMN-CEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_NHx74N-CEe6cl62lY90YGg" base_Class="_NHwGsN-CEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_XYy4sN-CEe6cl62lY90YGg" base_Class="_XYxDgN-CEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_qRutkN-CEe6cl62lY90YGg" base_Class="_qRsRUN-CEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_hmg0cN-DEe6cl62lY90YGg" base_Class="_hme_QN-DEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_rAteAN-DEe6cl62lY90YGg" base_Class="_rAro0N-DEe6cl62lY90YGg"/>
+  <Blocks:Block xmi:id="_wcX1cN-DEe6cl62lY90YGg" base_Class="_wcWnUN-DEe6cl62lY90YGg"/>
+</xmi:XMI>
