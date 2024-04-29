@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox -- -j8 -l8
+[0.058s] [0mCMake Error: The source directory "/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox" does not exist.
+[0.058s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.059s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.064s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_toolbox -- -j8 -l8

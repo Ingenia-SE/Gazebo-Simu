@@ -1,0 +1,5 @@
+[0.020s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins -- -j8 -l8
+[0.047s] [0mCMake Error: The source directory "/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins" does not exist.
+[0.047s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.048s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.055s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Gazebo-Simu/Simulation_ws/build/irobot_create_ignition_plugins -- -j8 -l8
